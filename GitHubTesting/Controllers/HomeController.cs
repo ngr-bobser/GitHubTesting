@@ -8,11 +8,16 @@ namespace GitHubTesting.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index()
-        {
-            ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
+        //public ActionResult Index()
+        //{
+        //    ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
 
-            return View();
+        //    return View();
+        //}
+
+        public string Index()
+        {
+            return "Hello World";
         }
 
         public ActionResult About()
