@@ -17,7 +17,7 @@ namespace GitHubTesting.Controllers
 
         public string Index()
         {
-            return "Hello World";
+            return "Hello World updated";
         }
 
         public ActionResult About()
